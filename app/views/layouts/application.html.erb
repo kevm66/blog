@@ -10,12 +10,6 @@
   </head>
 
   <body>
-    <%= yield %>
-
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-
-    <!-- MAY NEED TO MOVE THIS NAV BLOCK OUTSIDE OF HTML -->
     <nav role="navigation">
       <div class="inner">
         <a href="#nav" class="nav-collapse" id="nav-collapse">Menu</a>
@@ -26,6 +20,11 @@
         </ul>
       </div>
     </nav>
+
+    <%= yield %>
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
   </body>
 
 </html>
