@@ -2,5 +2,12 @@
 
 <%= render 'form', post: @post %>
 
-<%= link_to 'Show', @post %> |
-<%= link_to 'Back', posts_path %>
+
+
+<%= link_to 'Show', @post, :class => 'mdl-button mdl-js-button mdl-button--raised mdl-button--colored' %>
+<%= link_to 'Back', posts_path, :class => 'mdl-button mdl-js-button mdl-button--raised mdl-button--light'%>
+
+<!-- <%= link_to 'Show', @post, :class => 'mdl-button mdl-js-button mdl-button--raised mdl-button--colored' %>
+<%= link_to 'Show', @post, :class => 'mdl-button mdl-js-button mdl-button--raised mdl-button--light' %>
+<%= link_to 'Show', @post, :class => 'mdl-button mdl-js-button mdl-button--raised mdl-button--accent' %>
+<%= link_to 'Show', @post, :class => 'mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent' %> -->
